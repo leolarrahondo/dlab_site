@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+
+<div class="container">		
+	<div class="row blog-page blog-item">
+        	<!-- Left Sidebar -->
+    		<div class="col-md-9 md-margin-bottom-60">
+            		<!--Blog Post-->        
+            		<div class="blog margin-bottom-40">
+                		<h2><a href="blog_item_option1.html">{{ page.title }}</a></h2>
+                		<div class="blog-post-tags">
+			    <ul class="list-unstyled list-inline blog-info">
+			        <li><i class="icon-calendar"></i>{{ page.date | date_to_string }}</li>
+			        <li><i class="icon-pencil"></i> Patrick Ramos</li>
+			        <li><i class="icon-comments"></i> <a href="#">24 Comments</a></li>
+			    </ul>
+		            <ul class="list-unstyled list-inline blog-tags">
+		                <li>
+		                    <i class="icon-tags"></i> 
+		                    <a href="#">Technology</a> 
+		                    <a href="#">Education</a>
+		                    <a href="#">Internet</a>
+		                    <a href="#">Media</a>
+		                </li>
+		            </ul>                                                
+                	</div>
+
+			{{ content }}               
+            	</div>
+            	<!--End Blog Post-->  
+	</div>
+</div>

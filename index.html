@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>d.Lab Software</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">d.Lab Software</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+<header class="sb-page-header">
+	<div class="container">
+	<img class="pull-left" src="./images/small_logo2.png"/>
+	<h1>At d.Lab, we build software to empower organizations to innovate and thrive by streamlining operational processes.</h1>
+				<p>Our team at d.Lab Software consists of the best developer talent. We have experts in enterprise and consumer technology, security, mobile, cloud, and the latest cutting-edge web applications.</p>
+	</div>
+</header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-dashboard"></i>Getting Agile</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>We employ a flexible system for developing exactly the product you envision. Through continuous improvement and adaptive planning we are able to respond to requirements changes and deliver early.</p>
+                        <a href="./services.html" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check-circle-o"></i>Learning Your Domain</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>We'll work closely with your team to find out exactly what the pain points are in your day-to-day operations and recommend ways to leverage technology to alleviate that pain and streamline your operations.</p>
+                        <a href="./services.html" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-sitemap"></i>Enterprise Systems</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>From start-up projects to a custom software solution for your company, we're ready to provide full-cycle software development and services at each stage of your project.</p>
+                        <a href="./services.html" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Services &amp; Solutions</h2>
+            </div>
+            <div class="col-md-6">
+                <p><strong>We develop on all major operating systems across all major programming languages/technologies and specialize in:</strong></p>
+                <ul>
+                    <li>Desktop and Web-Based Applications</li>
+                    <li>Client/Server and SOA Solutions</li>
+                    <li>Mobile Development (Android, iPhone, Windows Phone)</li>
+                    <li>Google Glass Development</li>
+                    <li>Embedded Systems</li>                    
+                </ul>
+                <p><strong>In addition to the software solutions provide above, we also offer the following services:</strong></p>
+				<ul>
+                    <li>Architecture Design &amp; Analysis</li>
+                    <li>IT Consulting</li>
+				</ul>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="./images/services.jpg" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; d.Lab Software, Inc. <div id="year"></year></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+	
+	var currentYear = (new Date).getFullYear();
+	$("#year").text( (new Date).getFullYear() );
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
